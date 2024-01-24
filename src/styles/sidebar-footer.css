@@ -1,5 +1,6 @@
 body {
     background-color: #000;
+    font-family: var(--font-dm-sans);
 }
 
 .sidebar {
@@ -42,7 +43,6 @@ body {
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-    font-family: "DM Sans", sans-serif;
 }
 
 .library {
@@ -71,7 +71,6 @@ body {
     border: 0px;
     font-size: 14px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -111,7 +110,6 @@ body {
 .section-playlist__content .text {
     padding-bottom: 14px;
     color: #fff;
-    font-family: "DM Sans", sans-serif;
 }
 
 .section-playlist__content .title {
@@ -131,7 +129,6 @@ body {
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: 10px;
@@ -166,4 +163,48 @@ body {
     margin: 8px;
     padding: 8px;
     border-radius: 20px;
+}
+
+.section-footer {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    height: 60px;
+    bottom: 0;
+    margin: 11px 12px 8px 12px;
+    background: linear-gradient(90deg,green,blue)
+}
+
+.section-footer__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px 15px;
+}
+
+.section-footer__content .text {
+    color: #fff;
+    font-size: 14px;
+}
+
+.section-footer__content .title {
+    font-weight: 600;
+}
+
+.section-footer__button {
+    align-self: center;
+    margin: 12px;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    border: 0;
+    text-decoration: none;
+    text-transform: none;
+    margin-right: 20px;
+    
 }
